@@ -1,0 +1,13 @@
+.clock-box{
+    display: flex;
+    align-items: center;
+}
+
+.middle{
+    border: 1px solid blue;
+    width: 10px;
+}
+
+.outer{
+    height: 10px;
+}
