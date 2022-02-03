@@ -1,13 +1,15 @@
-.clock-box{
+.navbar {
+    display: grid;
+    grid-template-columns: fit-content(300px) fit-content(300px) fit-content(1000px);
+    grid-column-start: auto;
+    background: lightgray;
+}
+
+.nav-link{
     display: flex;
+    text-align: justify;
     align-items: center;
-}
-
-.middle{
-    border: 1px solid blue;
-    width: 10px;
-}
-
-.outer{
-    height: 10px;
+    justify-content: center;
+    margin: 13px 11px;
+    padding: 5px 5px;
 }
