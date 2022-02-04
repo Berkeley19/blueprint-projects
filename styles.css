@@ -2,14 +2,18 @@
     display: grid;
     grid-template-columns: fit-content(300px) fit-content(300px) fit-content(1000px);
     grid-column-start: auto;
-    background: lightgray;
+    background: rgba(236, 236, 236, 0.8);
 }
 
 .nav-link{
     display: flex;
-    text-align: justify;
     align-items: center;
     justify-content: center;
     margin: 13px 11px;
-    padding: 5px 5px;
+    padding: 5px;
 }
+
+#list-item:hover{
+    background-color: rgba(236, 236, 236, 0.8);
+}
+
