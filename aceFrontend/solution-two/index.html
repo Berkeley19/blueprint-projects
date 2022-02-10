@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <button type="submit" id="delete" onclick="switchButton()">Delete</button>
+        <div id="overlay" onclick="switchButton()"></div>
+        <div class="modal">
+            <div id="modal-wrap">
+                <div class="first-sec">
+                    <p>Are you sure you want to delete?</p>
+                </div>
+                <div class="second-sec">
+                    <p>This action cannot be undone</p>
+                </div>            
+                <div class="button-sec">
+                    <button  id="cancel" onclick="switchButton()">CANCEL</button>                
+                    <button  id="delete2">DELETE</button>                
+                </div>        
+            </div>
+        </div>
+        <script src="helper.js" async defer></script>
+    </body>
+</html>
