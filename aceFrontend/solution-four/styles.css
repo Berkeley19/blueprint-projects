@@ -34,3 +34,17 @@ button {
     border-radius: 5px;
     overflow: hidden;
 }
+
+button:disabled{
+    opacity: 0.4;
+}
+
+#error__list li {
+    color: tomato;
+    width: auto;
+    font-size: 0.5em;
+}
+
+#error__list {
+    padding-left: 7px;
+}
